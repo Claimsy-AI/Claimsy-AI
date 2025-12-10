@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
-  "homepage": "https://claimsy-ai.github.io/ClaimsyAI",
+  "homepage": "https://claimsy-ai.github.io/Claimsy-AI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

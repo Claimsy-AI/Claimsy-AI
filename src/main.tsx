@@ -8,12 +8,12 @@ import { OnboardingProvider } from "./onboardingStore";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider>
-      <OnboardingProvider>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
-      </OnboardingProvider>
-    </ThemeProvider>
+        <ThemeProvider>
+          <OnboardingProvider>
+            <BrowserRouter basename={import.meta.env.BASE_URL}>
+              <App />
+            </BrowserRouter>
+          </OnboardingProvider>
+        </ThemeProvider>
   </React.StrictMode>
 );
