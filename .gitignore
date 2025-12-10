@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+
+# Temp files
+.DS_Store
+*.log
+
+# Environment / config overrides
+.env
+.env.*
+
+# Tooling caches
+.vite
+*.tsbuildinfo
